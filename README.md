@@ -67,12 +67,8 @@ It reads in netcdf output from [diag_scripts/ar6ch6/ipcc_ar6wg1_fig6.10_erf_piAe
 Additional datasets:
 --------------------
 The AR6 WG1 Atlas reference regions are used to produce Figure 6.10b.    
-On the IPCC_AR6_WG1_Ch6_ESMValTool branch of ESMValTool-AR6-OriginalCode-FinalFigures:   
-[diag_scripts/ar6ch6//data/regionmask/AR6_WGI_referenceRegions/AR6_WGI_referenceRegions.shp](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/IPCC_AR6_WG1_Ch6_ESMValTool/esmvaltool/diag_scripts/ar6ch6/data/regionmask/AR6_WGI_referenceRegions/AR6_WGI_referenceRegions.shp)  
-[diag_scripts/ar6ch6//data/regionmask/AR6_WGI_referenceRegions/AR6_WGI_referenceRegions.dbf](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/IPCC_AR6_WG1_Ch6_ESMValTool/esmvaltool/diag_scripts/ar6ch6/data/regionmask/AR6_WGI_referenceRegions/AR6_WGI_referenceRegions.dbf)  
-[diag_scripts/ar6ch6//data/regionmask/AR6_WGI_referenceRegions/AR6_WGI_referenceRegions.prj](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/IPCC_AR6_WG1_Ch6_ESMValTool/esmvaltool/diag_scripts/ar6ch6/data/regionmask/AR6_WGI_referenceRegions/AR6_WGI_referenceRegions.prj)  
-[diag_scripts/ar6ch6//data/regionmask/AR6_WGI_referenceRegions/AR6_WGI_referenceRegions.rda](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/IPCC_AR6_WG1_Ch6_ESMValTool/esmvaltool/diag_scripts/ar6ch6/data/regionmask/AR6_WGI_referenceRegions/AR6_WGI_referenceRegions.rda)  
-[diag_scripts/ar6ch6//data/regionmask/AR6_WGI_referenceRegions/AR6_WGI_referenceRegions.shx](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/IPCC_AR6_WG1_Ch6_ESMValTool/esmvaltool/diag_scripts/ar6ch6/data/regionmask/AR6_WGI_referenceRegions/AR6_WGI_referenceRegions.shx)  
+On the Atlas repository: 
+[IPCC-WG1/Atlas/reference-regions/IPCC-WGI-reference-regions-v4_shapefile.zip](https://github.com/IPCC-WG1/Atlas/blob/main/reference-regions/IPCC-WGI-reference-regions-v4_shapefile.zip)
 
 What are their access permissions/Licenses?  
 The license details can be found at https://github.com/IPCC-WG1/Atlas/blob/main/LICENSE.md    
