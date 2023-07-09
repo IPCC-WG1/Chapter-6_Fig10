@@ -6,7 +6,6 @@ From the IPCC Working Group I Contribution to the Sixth Assessment Report: Chapt
 
 ![Figure 6.10](/ar6_wg1_chap6_fig6_10_netERFmap_SWLW_aer.png?raw=true)
 
-
 Description:
 ------------
 Multi-model mean Effective radiative forcings (ERFs) due to aerosol changes between 1850 and recent-past (1995-2014).  
