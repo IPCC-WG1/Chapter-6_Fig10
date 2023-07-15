@@ -6,7 +6,6 @@ From the IPCC Working Group I Contribution to the Sixth Assessment Report: Chapt
 
 ![Figure 6.10](/ar6_wg1_chap6_fig6_10_netERFmap_SWLW_aer.png?raw=true)
 
-
 Description:
 ------------
 Multi-model mean Effective radiative forcings (ERFs) due to aerosol changes between 1850 and recent-past (1995-2014).  
@@ -43,7 +42,7 @@ Calculates the spatial distribution of the net ERF with area-weighted global mea
 
 Figure 6.10 is created by running the ESMValTool recipe recipes/ar6ch6/recipe_erf_histSST-piAer_Fig6.10.yml  
 panel a) will be run through [recipes/ar6ch6/recipe_erf_histSST-piAer_Fig6.10.yml](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/IPCC_AR6_WG1_Ch6_ESMValTool/esmvaltool/recipes/ar6ch6/recipe_ckuo_ipcc_6_10_erf_histSST-piAer.yml) via [diag_scripts/ar6ch6/ipcc_ar6wg1_fig6.10_erf_piAer.py](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/IPCC_AR6_WG1_Ch6_ESMValTool/esmvaltool/diag_scripts/ar6ch6/ipcc_ar6wg1_fig6.10_erf_piAer.py)  
-panel b) is created through [IPCC_additional_scripts/ipynb/ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/tree/main/IPCC_additional_scripts/ipynb/ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb) via netcdf output from [diag_scripts/ar6ch6/ipcc_ar6wg1_fig6.10_erf_piAer.py](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/IPCC_AR6_WG1_Ch6_ESMValTool/esmvaltool/diag_scripts/ar6ch6/ipcc_ar6wg1_fig6.10_erf_piAer.py)  
+panel b) is created through [https://github.com/IPCC-WG1/Chapter-6_Fig10/tree/correctFig10b/ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb](https://github.com/IPCC-WG1/Chapter-6_Fig10/tree/correctFig10b/ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb) via netcdf output from [diag_scripts/ar6ch6/ipcc_ar6wg1_fig6.10_erf_piAer.py](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/IPCC_AR6_WG1_Ch6_ESMValTool/esmvaltool/diag_scripts/ar6ch6/ipcc_ar6wg1_fig6.10_erf_piAer.py)  
 
 Expected image path:
 --------------------
@@ -59,7 +58,7 @@ N/A
 Ancillary figures and datasets:
 -------------------------------
 Panel b) of Figure 6.10 is created by the file  
-[IPCC_additional_scripts/ipynb/ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/tree/main/IPCC_additional_scripts/ipynb/ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb)  
+[https://github.com/IPCC-WG1/Chapter-6_Fig10/tree/correctFig10b/ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb](https://github.com/IPCC-WG1/Chapter-6_Fig10/tree/correctFig10b/ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb)  
 It reads in netcdf output from [diag_scripts/ar6ch6/ipcc_ar6wg1_fig6.10_erf_piAer.py](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/IPCC_AR6_WG1_Ch6_ESMValTool/esmvaltool/diag_scripts/ar6ch6/ipcc_ar6wg1_fig6.10_erf_piAer.py), which are output into the recipe path:  
 - recipe_erf_histSST-piAer_Fig6.10_YYYYMMDD_HHMMSS/plots/diffexpts/ar6fig6_erf/erf_hatch_LW.nc
 - recipe_erf_histSST-piAer_Fig6.10_YYYYMMDD_HHMMSS/plots/diffexpts/ar6fig6_erf/erf_hatch_SW.nc
@@ -68,12 +67,8 @@ It reads in netcdf output from [diag_scripts/ar6ch6/ipcc_ar6wg1_fig6.10_erf_piAe
 Additional datasets:
 --------------------
 The AR6 WG1 Atlas reference regions are used to produce Figure 6.10b.    
-On the IPCC_AR6_WG1_Ch6_ESMValTool branch of ESMValTool-AR6-OriginalCode-FinalFigures:   
-[diag_scripts/ar6ch6//data/regionmask/AR6_WGI_referenceRegions/AR6_WGI_referenceRegions.shp](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/IPCC_AR6_WG1_Ch6_ESMValTool/esmvaltool/diag_scripts/ar6ch6/data/regionmask/AR6_WGI_referenceRegions/AR6_WGI_referenceRegions.shp)  
-[diag_scripts/ar6ch6//data/regionmask/AR6_WGI_referenceRegions/AR6_WGI_referenceRegions.dbf](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/IPCC_AR6_WG1_Ch6_ESMValTool/esmvaltool/diag_scripts/ar6ch6/data/regionmask/AR6_WGI_referenceRegions/AR6_WGI_referenceRegions.dbf)  
-[diag_scripts/ar6ch6//data/regionmask/AR6_WGI_referenceRegions/AR6_WGI_referenceRegions.prj](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/IPCC_AR6_WG1_Ch6_ESMValTool/esmvaltool/diag_scripts/ar6ch6/data/regionmask/AR6_WGI_referenceRegions/AR6_WGI_referenceRegions.prj)  
-[diag_scripts/ar6ch6//data/regionmask/AR6_WGI_referenceRegions/AR6_WGI_referenceRegions.rda](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/IPCC_AR6_WG1_Ch6_ESMValTool/esmvaltool/diag_scripts/ar6ch6/data/regionmask/AR6_WGI_referenceRegions/AR6_WGI_referenceRegions.rda)  
-[diag_scripts/ar6ch6//data/regionmask/AR6_WGI_referenceRegions/AR6_WGI_referenceRegions.shx](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/IPCC_AR6_WG1_Ch6_ESMValTool/esmvaltool/diag_scripts/ar6ch6/data/regionmask/AR6_WGI_referenceRegions/AR6_WGI_referenceRegions.shx)  
+On the Atlas repository: 
+[IPCC-WG1/Atlas/reference-regions/IPCC-WGI-reference-regions-v4_shapefile.zip](https://github.com/IPCC-WG1/Atlas/blob/main/reference-regions/IPCC-WGI-reference-regions-v4_shapefile.zip)
 
 What are their access permissions/Licenses?  
 The license details can be found at https://github.com/IPCC-WG1/Atlas/blob/main/LICENSE.md    
@@ -82,7 +77,7 @@ Software description:
 ---------------------
 - ESMValTool environment file: [IPCC_environments/ar6wg1_chap6_figs_conda_environment.yml](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/tree/main/IPCC_environments/ar6wg1_chap6_figs_conda_environment.yml)  
 - Other software used:  
-A Jupyter notebook ([ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/tree/main/IPCC_additional_scripts/ipynb/ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb)) is used to create Figure 6.10 panel b. See section "Ancillary figures and datasets" and "Additional datasets", above, for information.  
+A Jupyter notebook ([ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb](https://github.com/IPCC-WG1/Chapter-6_Fig10/tree/correctFig10b/ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb)) is used to create Figure 6.10 panel b. See section "Ancillary figures and datasets" and "Additional datasets", above, for information.  
 
 Hardware description:
 ---------------------
