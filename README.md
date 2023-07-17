@@ -42,7 +42,7 @@ Calculates the spatial distribution of the net ERF with area-weighted global mea
 
 Figure 6.10 is created by running the ESMValTool recipe recipes/ar6ch6/recipe_erf_histSST-piAer_Fig6.10.yml  
 panel a) will be run through [recipes/ar6ch6/recipe_erf_histSST-piAer_Fig6.10.yml](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/IPCC_AR6_WG1_Ch6_ESMValTool/esmvaltool/recipes/ar6ch6/recipe_ckuo_ipcc_6_10_erf_histSST-piAer.yml) via [diag_scripts/ar6ch6/ipcc_ar6wg1_fig6.10_erf_piAer.py](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/IPCC_AR6_WG1_Ch6_ESMValTool/esmvaltool/diag_scripts/ar6ch6/ipcc_ar6wg1_fig6.10_erf_piAer.py)  
-panel b) is created through [https://github.com/IPCC-WG1/Chapter-6_Fig10/tree/correctFig10b/ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb](https://github.com/IPCC-WG1/Chapter-6_Fig10/tree/correctFig10b/ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb) via netcdf output from [diag_scripts/ar6ch6/ipcc_ar6wg1_fig6.10_erf_piAer.py](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/IPCC_AR6_WG1_Ch6_ESMValTool/esmvaltool/diag_scripts/ar6ch6/ipcc_ar6wg1_fig6.10_erf_piAer.py)  
+panel b) is created through [https://github.com/IPCC-WG1/Chapter-6_Fig10/tree/main/ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb](https://github.com/IPCC-WG1/Chapter-6_Fig10/tree/main/ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb) via netcdf output from [diag_scripts/ar6ch6/ipcc_ar6wg1_fig6.10_erf_piAer.py](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/IPCC_AR6_WG1_Ch6_ESMValTool/esmvaltool/diag_scripts/ar6ch6/ipcc_ar6wg1_fig6.10_erf_piAer.py)  
 
 Expected image path:
 --------------------
@@ -58,7 +58,7 @@ N/A
 Ancillary figures and datasets:
 -------------------------------
 Panel b) of Figure 6.10 is created by the file  
-[https://github.com/IPCC-WG1/Chapter-6_Fig10/tree/correctFig10b/ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb](https://github.com/IPCC-WG1/Chapter-6_Fig10/tree/correctFig10b/ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb)  
+[https://github.com/IPCC-WG1/Chapter-6_Fig10/tree/main/ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb](https://github.com/IPCC-WG1/Chapter-6_Fig10/tree/main/ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb)  
 It reads in netcdf output from [diag_scripts/ar6ch6/ipcc_ar6wg1_fig6.10_erf_piAer.py](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/IPCC_AR6_WG1_Ch6_ESMValTool/esmvaltool/diag_scripts/ar6ch6/ipcc_ar6wg1_fig6.10_erf_piAer.py), which are output into the recipe path:  
 - recipe_erf_histSST-piAer_Fig6.10_YYYYMMDD_HHMMSS/plots/diffexpts/ar6fig6_erf/erf_hatch_LW.nc
 - recipe_erf_histSST-piAer_Fig6.10_YYYYMMDD_HHMMSS/plots/diffexpts/ar6fig6_erf/erf_hatch_SW.nc
@@ -77,7 +77,7 @@ Software description:
 ---------------------
 - ESMValTool environment file: [IPCC_environments/ar6wg1_chap6_figs_conda_environment.yml](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/tree/main/IPCC_environments/ar6wg1_chap6_figs_conda_environment.yml)  
 - Other software used:  
-A Jupyter notebook ([ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb](https://github.com/IPCC-WG1/Chapter-6_Fig10/tree/correctFig10b/ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb)) is used to create Figure 6.10 panel b. See section "Ancillary figures and datasets" and "Additional datasets", above, for information.  
+A Jupyter notebook ([ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb](https://github.com/IPCC-WG1/Chapter-6_Fig10/tree/main/ipcc_ar6wg1_Fig6.10b_FGD_submit.ipynb)) is used to create Figure 6.10 panel b. See section "Ancillary figures and datasets" and "Additional datasets", above, for information.  
 
 Hardware description:
 ---------------------
